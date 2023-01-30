@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            html {
+    display: block;
+}
+body {
+    font-family: cursive;
+    margin: 0;
+    background: #eee;
+    height:auto;
+}
+body {
+    display: block;
+}
+nav {
+position: fixed;
+top: 0;
+max-width: 900px;
+margin: auto;
+background-color: #333;
+color: #fff;
+text-align: center;
+}
+nav ul {
+display: flex;
+justify-content: space-between;
+padding: 0;
+margin: 0;
+list-style: none;
+}
+nav li {
+display: inline-block;
+}
+nav a {
+color: #fff;
+text-decoration: none;
+padding: 10px 15px;
+display: block;
+}
+nav a:hover {
+background-color: #555;
+}
+
+
+.but {
+  background-color: orange;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.but:hover{
+   background-color: black;
+  color: white;
+}
+a:hover {
+  background-color: black;
+  color: white;
+}
+a {
+  text-decoration: none;
+  }
+
+
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgb(0 0 0 / 10%), -30px 0px 40px rgb(0 0 0 / 10%);
+} 
+#landing {
+    display:flex;
+    height: 100%;
+    background: #fff;
+}
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+div {
+    display: block;
+}
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#landing-text h2 {
+    color: #888;
+}
+h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.btn {
+    padding: 1rem 3rem;
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+    transition: background 500ms ease;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+.landing-images {
+    background: url(https://images.unsplash.com/photo-1556642389-0cd5fd882f5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+div {
+    display: block;
+}
+header  {
+        padding: 1.5rem;
+        text-align: center;
+        background: #333;
+        color: #fff;
+    }
+header h2 {
+        border-left: dotted 1px #fff;
+        border-right: dotted 1px #fff;
+        display: inline-block;
+        padding-right: 1rem;
+        padding-left: 1rem;
+}
+img {
+    display: block;
+    width: 100%;
+}
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+h3 {
+font-size: 20px;
+}
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+}
+.head {
+    font-size: 30px;
+}
+footer h3 {
+    display: block;
+    font-size: 3rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+        </style>
+     </head>
+     <body>
+       <header>
+       <nav>
+  <ul>
+    <li><a href="#landing">Home</a></li>
+    <li><a href="#images">Our Work</a></li>
+    <li><a href="#footer">Contact</a></li>
+    <li><a href="#">Cart</a></li>
+  </ul>
+</nav>
+     </header>
+            
+        <main>
+                <div id="landing">
+                    <div id="landing-text">
+                        <div id="landing-text-inner">
+                            <h1>Max Photography</h1>
+                            <h2>Photography never seen before</h2>
+                            <a href="#images" class="btn" id="view-work">View Work</a>
+                        </div>
+                </div>
+                 
+                <div class="landing-images">
+                    </div>
+                
+                </div>
+                <div id="images">
+                </div>
+                
+                
+                <header>
+                    <h2>Our Work</h2>
+                </header>
+               
+               
+                <img src="https://2.img-dpreview.com/files/p/E~TC4x3S1180x0~articles/7921074499/MVIMG_20180906_075200__1_.jpeg" alt="water image">
+                <div class="caption">
+                    <h3>Photo One</h3>
+                    <p>Water photography is a broad area of photography with various creative possibilities.</p>
+                  <button class="but"><a href="#landing">Add to cart</a></button>
+                </div>
+               
+               
+                <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80" alt="trees">
+                <div class="caption">
+                    <h3>Photo Two</h3>
+                    <p>Tree photographs are an important subset of landscape photography. Trees can make great backgrounds for portrait photography</p>
+                  <button class="but"><a href="#landing">Add to cart</a></button>
+                </div>
+                
+                
+                <img src="https://www.apogeephoto.com/wp-content/uploads/2016/may2012/Sharp_photos_2/flowers_SingleFlower.jpg" alt="flower">
+                <div class="caption">
+                    <h3>Photo Three</h3>
+                    <p>Flower Photography Tips: Look For Good Perspectives. While photographing flowers, don't just point and shoot.</p>
+                  <button class="but"><a href="#landing">Add to cart</a></button>
+                </div>
+               
+               
+                <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/tnc_33191879.jpg?crop=0%2C111%2C1400%2C770&wid=4000&hei=2200&scl=0.35" alt="animal">
+                <div class="caption">
+                    <h3>Photo four</h3>
+                    <p>Wildlife photography is one of the most exciting photographic genres out there. But it can be difficult to get started as a wildlife photographer</p>
+                  <button class="but"><a href="#landing">Add to cart</a></button>
+                </div>
+               
+               
+               
+                <img src="https://cdn-7.nikon-cdn.com/Images/Learn-Explore/Photography-Techniques/2018/Jim-Reed-clouds/Media/03-Jim-Reed-clouds-grey-skies.jpg" alt="clouds">
+                <div class="caption">
+                    <h3>Photo five</h3>
+                    <p>When doing cloud photography, a photographer should pay attention to shapes and lighting to capture images with rich colors and detailed textures.</p>
+                  <button class="but"><a href="#landing">Add to cart</a></button>
+                </div>
+             </main>
+
+             
+             
+             <footer>
+               <div id="footer"
+                <h3>Get in Touch</h3>
+                <p>Email or call us to set up a consult</p>
+                <p>Email:<a href="#"><strong>mukultyagi@photo.com</strong></a></p>
+                <p>Phone:98973022233</p>
+               </div>
+             </footer>
+     </body>
+</html>
